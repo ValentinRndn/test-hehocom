@@ -1,0 +1,1061 @@
+[2024-10-17 01:54:08] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-17 01:54:08] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-10-17 01:54:08] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-17 01:54:09] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-17 01:54:09] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-17 01:54:09] [class-ss-task.php:44] Status message: [setup] Mise en place
+[2024-10-17 01:54:09] [class-ss-setup-task.php:33] Creating archive directory: C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048\
+[2024-10-17 01:54:09] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/wordpress_hehocom/
+[2024-10-17 01:54:09] [class-yoast-integration.php:86] Adding sitemap URL to queue: http://localhost/wordpress_hehocom/sitemap.xml
+[2024-10-17 01:54:09] [class-yoast-integration.php:86] Adding sitemap URL to queue: http://localhost/wordpress_hehocom/sitemap_index.xml
+[2024-10-17 01:54:09] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-17 01:54:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 01:54:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 01:54:09] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-10-17 01:54:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/
+[2024-10-17 01:54:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-10-17 01:54:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e41321f8-F4L5Fw.tmp
+[2024-10-17 01:54:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/?simply_static_page=78
+[2024-10-17 01:54:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/?simply_static_page=78
+[2024-10-17 01:54:10] [class-ss-url-fetcher.php:103] Filesize: 39107 bytes
+[2024-10-17 01:54:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-17 01:54:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e41321f8-F4L5Fw.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/index.html
+[2024-10-17 01:54:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:11] [class-ss-fetch-urls-task.php:159] Adding 40 URLs to the queue
+[2024-10-17 01:54:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:11] [class-ss-page.php:119] Checking Content Identical:2016d030be5654cc07df3d8eeaeef4000f77b7a1===. Value: FALSE
+[2024-10-17 01:54:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/sitemap.xml
+[2024-10-17 01:54:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-10-17 01:54:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4346e0b-q3frjH.tmp
+[2024-10-17 01:54:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/sitemap.xml?simply_static_page=79
+[2024-10-17 01:54:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/sitemap.xml?simply_static_page=79
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:103] Filesize: 33677 bytes
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e450f15e-H4519Y.tmp
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/sitemap.xml
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/wordpress_hehocom/sitemap_index.xml
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
+[2024-10-17 01:54:13] [class-ss-page.php:119] Checking Content Identical:d3da1ce4d5f6764bab2a247df3b7c401b7c67e10===. Value: FALSE
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/sitemap_index.xml
+[2024-10-17 01:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e455f12a-7rG2P7.tmp
+[2024-10-17 01:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/sitemap_index.xml?simply_static_page=80
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/sitemap_index.xml?simply_static_page=80
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:103] Filesize: 804 bytes
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e455f12a-7rG2P7.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/sitemap_index.xml
+[2024-10-17 01:54:13] [class-ss-yoast-sitemap-handler.php:85] Copied C:\wamp64\www\wordpress_hehocom\wp-content\plugins\wordpress-seo/css/main-sitemap.xsl to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/main-sitemap.xsl
+[2024-10-17 01:54:13] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:13] [class-ss-page.php:119] Checking Content Identical:8c96c1cacc90c29d5c5ac5ddf80da2b19d7f7af1===. Value: FALSE
+[2024-10-17 01:54:13] [class-ss-task.php:44] Status message: [fetch_urls] 0 pages/fichiers sur 3 générés
+[2024-10-17 01:54:13] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 01:54:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 01:54:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 44
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/technique/
+[2024-10-17 01:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 47
+[2024-10-17 01:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e45b8721-GTwdIj.tmp
+[2024-10-17 01:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/technique/?simply_static_page=81
+[2024-10-17 01:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/technique/?simply_static_page=81
+[2024-10-17 01:54:15] [class-ss-url-fetcher.php:103] Filesize: 41542 bytes
+[2024-10-17 01:54:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:15] [class-ss-url-fetcher.php:233] New filename for static page: /technique/index.html
+[2024-10-17 01:54:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e45b8721-GTwdIj.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/technique/index.html
+[2024-10-17 01:54:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:16] [class-ss-fetch-urls-task.php:159] Adding 29 URLs to the queue
+[2024-10-17 01:54:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:16] [class-ss-page.php:119] Checking Content Identical:50c0cfb96eab663ce0f4a5c342ae417facaa4d53===. Value: FALSE
+[2024-10-17 01:54:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/
+[2024-10-17 01:54:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 47
+[2024-10-17 01:54:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e484c80c-zIGY9Q.tmp
+[2024-10-17 01:54:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/?simply_static_page=82
+[2024-10-17 01:54:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/?simply_static_page=82
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:103] Filesize: 51651 bytes
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/index.html
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e484c80c-zIGY9Q.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/index.html
+[2024-10-17 01:54:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:18] [class-ss-fetch-urls-task.php:159] Adding 44 URLs to the queue
+[2024-10-17 01:54:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:18] [class-ss-page.php:119] Checking Content Identical:7096a1c42e924709bc6682c546c3d26ed50cca3e===. Value: FALSE
+[2024-10-17 01:54:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/
+[2024-10-17 01:54:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 47
+[2024-10-17 01:54:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4a89b35-mx4rCz.tmp
+[2024-10-17 01:54:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/?simply_static_page=83
+[2024-10-17 01:54:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/?simply_static_page=83
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:103] Filesize: 51543 bytes
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/index.html
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4a89b35-mx4rCz.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/index.html
+[2024-10-17 01:54:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:20] [class-ss-fetch-urls-task.php:159] Adding 44 URLs to the queue
+[2024-10-17 01:54:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:20] [class-ss-page.php:119] Checking Content Identical:dfdae2d7ccbfd721a559086444587c0c9ffff1aa===. Value: FALSE
+[2024-10-17 01:54:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/
+[2024-10-17 01:54:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 47
+[2024-10-17 01:54:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4cc0804-Ip4fLJ.tmp
+[2024-10-17 01:54:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/?simply_static_page=84
+[2024-10-17 01:54:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/?simply_static_page=84
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 51160 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/mes-suspensions-parfumees-de-noel/index.html
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4cc0804-Ip4fLJ.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/mes-suspensions-parfumees-de-noel/index.html
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 44 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:6ce6858cf91d96f6ffe9fc15966ad0923f2467b3===. Value: FALSE
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/logo.png
+[2024-10-17 01:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 47
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4ecbaba-zGGkpw.tmp
+[2024-10-17 01:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/logo.png?simply_static_page=85
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/logo.png?simply_static_page=85
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 1570 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hehocom/assets/img/logo.png
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4ecbaba-zGGkpw.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/hehocom/assets/img/logo.png
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:a1a70d39a5b17b699db72a708d114210827a2565===. Value: FALSE
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-marron.svg
+[2024-10-17 01:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 47
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4ed32e4-Verked.tmp
+[2024-10-17 01:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-marron.svg?simply_static_page=86
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-marron.svg?simply_static_page=86
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 960 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hehocom/assets/img/blog/fleche-droite-marron.svg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4ed32e4-Verked.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/hehocom/assets/img/blog/fleche-droite-marron.svg
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:bdd29c5fe4bc3ad1c7c867fdf1a4194d17a30ded===. Value: FALSE
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1024x299.jpg
+[2024-10-17 01:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 47
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4edb56d-mazfCn.tmp
+[2024-10-17 01:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1024x299.jpg?simply_static_page=87
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1024x299.jpg?simply_static_page=87
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 78831 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog1-1024x299.jpg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4edb56d-mazfCn.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog1-1024x299.jpg
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:c8407c281beff1a7e99b44cc02f32d08b4565fc8===. Value: FALSE
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-300x88.jpg
+[2024-10-17 01:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 47
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4ee64f4-yECaPH.tmp
+[2024-10-17 01:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-300x88.jpg?simply_static_page=88
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-300x88.jpg?simply_static_page=88
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 8711 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog1-300x88.jpg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4ee64f4-yECaPH.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog1-300x88.jpg
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:d0fdd6ef73210d180f107bfda81444cfc53c97c8===. Value: FALSE
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-768x224.jpg
+[2024-10-17 01:54:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 47
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4eed645-gJrAMs.tmp
+[2024-10-17 01:54:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-768x224.jpg?simply_static_page=89
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-768x224.jpg?simply_static_page=89
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:103] Filesize: 46558 bytes
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog1-768x224.jpg
+[2024-10-17 01:54:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4eed645-gJrAMs.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog1-768x224.jpg
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:22] [class-ss-page.php:119] Checking Content Identical:5a1b8ed024011a59399f80143560535f56773885===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1536x448.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f00d7c-EPQIqM.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1536x448.jpg?simply_static_page=90
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1-1536x448.jpg?simply_static_page=90
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 157072 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog1-1536x448.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f00d7c-EPQIqM.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog1-1536x448.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:293c738959ce16caddb01baff1372bb29824dab2===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f08a39-dzjRpP.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1.jpg?simply_static_page=91
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog1.jpg?simply_static_page=91
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 791143 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog1.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f08a39-dzjRpP.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog1.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:e0dd771276f3ad1862d31c58342621b8c1092f26===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-blanche.svg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f1283b-U1VoAu.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-blanche.svg?simply_static_page=92
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/blog/fleche-droite-blanche.svg?simply_static_page=92
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 917 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hehocom/assets/img/blog/fleche-droite-blanche.svg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f1283b-U1VoAu.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/hehocom/assets/img/blog/fleche-droite-blanche.svg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:3fb8daee42594e9b4582c25443d42db49c5f078d===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f1c061-lYBzc8.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3-300x250.jpg?simply_static_page=93
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3-300x250.jpg?simply_static_page=93
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 10868 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog3-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f1c061-lYBzc8.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog3-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:ca7c6e0927fbc60d3ab433c0cecf19682e34e91f===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f2687e-72PTIN.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3.jpg?simply_static_page=94
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog3.jpg?simply_static_page=94
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 112987 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog3.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f2687e-72PTIN.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog3.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:6c18ee32817da626926d8d8cd3a82600e1ddc8bc===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f2c03e-X6DGQD.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2-300x250.jpg?simply_static_page=95
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2-300x250.jpg?simply_static_page=95
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 28164 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog2-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f2c03e-X6DGQD.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog2-300x250.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:a92dd92cf6a1a3af43c58e8d5cad862b36f263c4===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2.jpg
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f3091b-fGKYBo.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2.jpg?simply_static_page=96
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/uploads/2024/10/blog2.jpg?simply_static_page=96
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 295993 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/blog2.jpg
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f3091b-fGKYBo.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/uploads/2024/10/blog2.jpg
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:3553e34c6dd5182c00c514e7a301f26a55362354===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f3a65f-aYXB0B.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery.min.js?simply_static_page=97
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery.min.js?simply_static_page=97
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f3a65f-aYXB0B.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-includes/js/jquery/jquery.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f45ffa-ORQY0P.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=98
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=98
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f45ffa-ORQY0P.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-includes/js/imagesloaded.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f5511a-H971n7.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-includes/js/imagesloaded.min.js?simply_static_page=99
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-includes/js/imagesloaded.min.js?simply_static_page=99
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 5520 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/imagesloaded.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f5511a-H971n7.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-includes/js/imagesloaded.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:90b0adb37d70ffec5f9189c36bb0027c310c9502===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/theme.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f5f13f-hJlezS.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/theme.min.js?simply_static_page=100
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/theme.min.js?simply_static_page=100
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 19719 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/theme.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f5f13f-hJlezS.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/theme.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:3a6034a6441bad661c50627f5c7b3136ef3ddc48===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f68fb4-fRSYAs.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?simply_static_page=101
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?simply_static_page=101
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 14581 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f68fb4-fRSYAs.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:e0c60aa28b1e19af241d7484f3ac8666b9224034===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f720c4-hICjw7.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?simply_static_page=102
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?simply_static_page=102
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 7540 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/drop-down-search.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f720c4-hICjw7.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:a955c9646a728f8250f30e13772d129a3e0e2877===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f79f60-St3TrP.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?simply_static_page=103
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?simply_static_page=103
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 20864 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f79f60-St3TrP.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:6b2e182c99a0065ba1708446813683acc6e66202===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f838a5-3fqTIL.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?simply_static_page=104
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?simply_static_page=104
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 4111 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f838a5-3fqTIL.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:2f048a9ca8727b169e761033b80209f53ffbf9f4===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f8cb26-n6NnrG.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?simply_static_page=105
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?simply_static_page=105
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 57513 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f8cb26-n6NnrG.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:e96d27e9c036db495b6fe00cfc8a0371d7aadd74===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-slider.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f984bc-S6HqgL.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?simply_static_page=106
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?simply_static_page=106
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 2002 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/ow-slider.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f984bc-S6HqgL.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/ow-slider.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:5799b78581ed5968346cade85389b82b2d6a304d===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4f9f8f1-pNYsJB.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?simply_static_page=107
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?simply_static_page=107
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 12387 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/scroll-effect.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4f9f8f1-pNYsJB.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:c5571ce8b1a3159023525f102033c9cc271a1087===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-top.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4fa59ab-jWn8TT.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?simply_static_page=108
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?simply_static_page=108
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 8989 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/scroll-top.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4fa59ab-jWn8TT.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/scroll-top.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:2c93237d0e23d4ac94be43320b581a50365bd959===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/select.min.js
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4fb1261-hQrGQn.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/select.min.js?simply_static_page=109
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/js/select.min.js?simply_static_page=109
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:103] Filesize: 5181 bytes
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/js/select.min.js
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4fb1261-hQrGQn.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/js/select.min.js
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:23] [class-ss-page.php:119] Checking Content Identical:cf137934bc4ef8c0b0c42c325f53f6c639985f18===. Value: FALSE
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/feed/
+[2024-10-17 01:54:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 47
+[2024-10-17 01:54:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e4fba6ee-a6AbX1.tmp
+[2024-10-17 01:54:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/feed/?simply_static_page=110
+[2024-10-17 01:54:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/feed/?simply_static_page=110
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:103] Filesize: 7535 bytes
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e4fba6ee-a6AbX1.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/feed/index.xml
+[2024-10-17 01:54:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:24] [class-ss-fetch-urls-task.php:159] Adding 9 URLs to the queue
+[2024-10-17 01:54:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:24] [class-ss-page.php:119] Checking Content Identical:4a4537e72cbdd752a13906ed71141159943e2dc1===. Value: FALSE
+[2024-10-17 01:54:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/comments/feed/
+[2024-10-17 01:54:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 47
+[2024-10-17 01:54:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e50ad7b2-ON1Wcn.tmp
+[2024-10-17 01:54:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/comments/feed/?simply_static_page=111
+[2024-10-17 01:54:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/comments/feed/?simply_static_page=111
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 776 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e50ad7b2-ON1Wcn.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/comments/feed/index.xml
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:b9196690dd2207e263dd985efd17653ce6bbea6a===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e51146d9-WFyjgv.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-includes/css/dist/block-library/style.min.css?simply_static_page=112
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-includes/css/dist/block-library/style.min.css?simply_static_page=112
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e51146d9-WFyjgv.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/style.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e511ed45-SrvC1c.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/style.css?simply_static_page=113
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/style.css?simply_static_page=113
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 2144 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/style.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e511ed45-SrvC1c.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/style.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:8ad43c34394793973ed8b24867c1bcd9711bb6b9===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/style.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5127151-yZI69u.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/hehocom/style.css?simply_static_page=114
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/style.css?simply_static_page=114
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 9900 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hehocom/style.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5127151-yZI69u.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/hehocom/style.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:70556ed0611ee36393f49203f2554506739792dc===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5130a30-skxehL.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?simply_static_page=115
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?simply_static_page=115
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 102217 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5130a30-skxehL.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 8 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:7ffeacef87faa25920a86a5cc83560bfd0fd9936===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e513f8f5-7gVvle.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?simply_static_page=116
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?simply_static_page=116
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 10927 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e513f8f5-7gVvle.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:4b6ba4b2308b14c8ebc8f1b486998109bb21ebf6===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/style.min.css
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e514fdd3-ZK6WhB.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/style.min.css?simply_static_page=117
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/css/style.min.css?simply_static_page=117
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 181006 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/css/style.min.css
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e514fdd3-ZK6WhB.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/css/style.min.css
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:5f6a00614cd79bd7ca7f8e8b1eaa87852768ad26===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/xmlrpc.php
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/xmlrpc.php
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/main-sitemap.xsl
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5163094-6P5ocL.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/main-sitemap.xsl?simply_static_page=120
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/main-sitemap.xsl?simply_static_page=120
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:103] Filesize: 4171 bytes
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml;charset=UTF-8
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:233] New filename for static page: /main-sitemap.xsl
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5163094-6P5ocL.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/main-sitemap.xsl
+[2024-10-17 01:54:25] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:25] [class-ss-page.php:119] Checking Content Identical:424bec392863c4738e378d4a55aeddc7d32cf1fc===. Value: FALSE
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/post-sitemap.xml
+[2024-10-17 01:54:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 47
+[2024-10-17 01:54:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e51b259d-Es65Sn.tmp
+[2024-10-17 01:54:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/post-sitemap.xml?simply_static_page=121
+[2024-10-17 01:54:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/post-sitemap.xml?simply_static_page=121
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:103] Filesize: 1598 bytes
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:233] New filename for static page: /post-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e51b259d-Es65Sn.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/post-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:159] Adding 8 URLs to the queue
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:26] [class-ss-page.php:119] Checking Content Identical:d57346e225a6d64f9ff072ce2a02ce0cf0a32c50===. Value: FALSE
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/page-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 47
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5207853-MMByIQ.tmp
+[2024-10-17 01:54:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/page-sitemap.xml?simply_static_page=122
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/page-sitemap.xml?simply_static_page=122
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:103] Filesize: 829 bytes
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5207853-MMByIQ.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/page-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:26] [class-ss-page.php:119] Checking Content Identical:f2cfb3dd418ad56804343adef21de40dd2ce6bdf===. Value: FALSE
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/category-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 47
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e526e600-0sLHMh.tmp
+[2024-10-17 01:54:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/category-sitemap.xml?simply_static_page=123
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/category-sitemap.xml?simply_static_page=123
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:103] Filesize: 728 bytes
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:233] New filename for static page: /category-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e526e600-0sLHMh.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/category-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:26] [class-ss-page.php:119] Checking Content Identical:374c36338ac0dd83aa4d2b05674756741fcec81b===. Value: FALSE
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/author-sitemap.xml
+[2024-10-17 01:54:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 47
+[2024-10-17 01:54:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e52c6e80-0ptZgz.tmp
+[2024-10-17 01:54:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/author-sitemap.xml?simply_static_page=124
+[2024-10-17 01:54:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/author-sitemap.xml?simply_static_page=124
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:103] Filesize: 728 bytes
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:233] New filename for static page: /author-sitemap.xml
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e52c6e80-0ptZgz.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/author-sitemap.xml
+[2024-10-17 01:54:27] [class-ss-yoast-sitemap-handler.php:64] Copied C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap_index.xml to C:/wamp64/www/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048/sitemap.xml
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:27] [class-ss-page.php:119] Checking Content Identical:c34bf0969e3b070bdb6f56f2d7433bd1a9186620===. Value: FALSE
+[2024-10-17 01:54:27] [class-ss-task.php:44] Status message: [fetch_urls] 3 pages/fichiers sur 47 générés
+[2024-10-17 01:54:27] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 01:54:27] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 01:54:27] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:69] Total pages: 73; Pages remaining: 26
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/technic/curly.webp
+[2024-10-17 01:54:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 73
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5330db0-d3SbiW.tmp
+[2024-10-17 01:54:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/technic/curly.webp?simply_static_page=125
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/hehocom/assets/img/technic/curly.webp?simply_static_page=125
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:103] Filesize: 319118 bytes
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/hehocom/assets/img/technic/curly.webp
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5330db0-d3SbiW.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/hehocom/assets/img/technic/curly.webp
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:27] [class-ss-page.php:119] Checking Content Identical:c3d6465f28281839a5fead74edc75407984667be===. Value: FALSE
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/pages/21
+[2024-10-17 01:54:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 73
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/pages/21
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/oembed/1.0/embed
+[2024-10-17 01:54:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 73
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/oembed/1.0/embed
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/author/valentinrndn/
+[2024-10-17 01:54:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 73
+[2024-10-17 01:54:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e53390d7-8qd853.tmp
+[2024-10-17 01:54:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/author/valentinrndn/?simply_static_page=128
+[2024-10-17 01:54:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/author/valentinrndn/?simply_static_page=128
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:103] Filesize: 36615 bytes
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:233] New filename for static page: /author/valentinrndn/index.html
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e53390d7-8qd853.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/author/valentinrndn/index.html
+[2024-10-17 01:54:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:28] [class-ss-fetch-urls-task.php:159] Adding 29 URLs to the queue
+[2024-10-17 01:54:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:28] [class-ss-page.php:119] Checking Content Identical:2f365eb004ff68a4967ea86603121a2003244f3a===. Value: FALSE
+[2024-10-17 01:54:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/category/non-classe/
+[2024-10-17 01:54:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 73
+[2024-10-17 01:54:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e54b76c6-goUOG3.tmp
+[2024-10-17 01:54:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/category/non-classe/?simply_static_page=129
+[2024-10-17 01:54:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/category/non-classe/?simply_static_page=129
+[2024-10-17 01:54:30] [class-ss-url-fetcher.php:103] Filesize: 35280 bytes
+[2024-10-17 01:54:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:30] [class-ss-url-fetcher.php:233] New filename for static page: /category/non-classe/index.html
+[2024-10-17 01:54:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e54b76c6-goUOG3.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/category/non-classe/index.html
+[2024-10-17 01:54:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:159] Adding 29 URLs to the queue
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:31] [class-ss-page.php:119] Checking Content Identical:25c8812bcae80dcaa5b64aa7816fb4dbfd12161a===. Value: FALSE
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-includes/js/comment-reply.min.js
+[2024-10-17 01:54:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 73
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e571fd43-69nLHn.tmp
+[2024-10-17 01:54:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-includes/js/comment-reply.min.js?simply_static_page=130
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-includes/js/comment-reply.min.js?simply_static_page=130
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e571fd43-69nLHn.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-includes/js/comment-reply.min.js
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:31] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/feed/
+[2024-10-17 01:54:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 73
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e572444f-rKPiRU.tmp
+[2024-10-17 01:54:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/feed/?simply_static_page=131
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/feed/?simply_static_page=131
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:103] Filesize: 927 bytes
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/feed/index.xml
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e572444f-rKPiRU.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/creez-votre-bougie-automnale-en-degrade-de-couleurs/feed/index.xml
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:31] [class-ss-page.php:119] Checking Content Identical:76790623708467b18935de038a28097e2b27b214===. Value: FALSE
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/25
+[2024-10-17 01:54:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 73
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/25
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/feed/
+[2024-10-17 01:54:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 73
+[2024-10-17 01:54:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e577bbfb-xgGytR.tmp
+[2024-10-17 01:54:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/feed/?simply_static_page=133
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/feed/?simply_static_page=133
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:103] Filesize: 912 bytes
+[2024-10-17 01:54:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/feed/index.xml
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e577bbfb-xgGytR.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/tout-savoir-sur-le-myristate-disopropyle-mip/feed/index.xml
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:b61ce4c29d1c07242d35c12ef290faa839c09f45===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/16
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/16
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/feed/
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5807044-5ZAtmE.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/feed/?simply_static_page=135
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/2024/10/16/mes-suspensions-parfumees-de-noel/feed/?simply_static_page=135
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 872 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/mes-suspensions-parfumees-de-noel/feed/index.xml
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5807044-5ZAtmE.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/2024/10/16/mes-suspensions-parfumees-de-noel/feed/index.xml
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:1df9ae8c4575a3bc224b50e6d7cbe2db6f1001c2===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/13
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/posts/13
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e586b902-dLjeHi.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom?simply_static_page=137
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom?simply_static_page=137
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 372 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/wordpress_hehocom/
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58708b9-DDL29e.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=138
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=138
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 109808 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58708b9-DDL29e.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:373361ed756b1fe68ce2f5968d467826b6973bb5===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e587a1d5-AcnRkA.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=139
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=139
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 189684 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e587a1d5-AcnRkA.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:d8b3568e9d8a1d3c01c85520eb9ca0b49b72815d===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5880a7d-J0UEfq.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=140
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=140
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 24488 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5880a7d-J0UEfq.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:07fc0ae14bb3187839082aed3bca11dfb1e04524===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5886c82-0wXSYB.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=141
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=141
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 63348 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5886c82-0wXSYB.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:2d7890e12afb77490112ec57fe47ca0688aebda2===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e588ccc2-2bFyC0.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=142
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=142
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 150020 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e588ccc2-2bFyC0.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:97f0942c6627ddd89fb62170e5cac9a2cbd6c98c===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58920fc-m4sYEI.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=143
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=143
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 394668 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58920fc-m4sYEI.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:e9ace557c3aa403307f1e7a2cef1c035d522b94b===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5898545-vusgQF.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2?simply_static_page=144
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2?simply_static_page=144
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 4568 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5898545-vusgQF.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:35794892fa2b4aede41ec686df49a1283ab2b2b3===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e589d424-pOXP3i.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf?simply_static_page=145
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf?simply_static_page=145
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 10172 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e589d424-pOXP3i.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:321d89c65f1746f111341556bc62c7e217ad2544===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58a2d01-WJsK05.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot?simply_static_page=146
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot?simply_static_page=146
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 54266 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58a2d01-WJsK05.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:ac66184202b5478e0b60305e19dc6de385b84bb5===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58a7cdd-qCEO4C.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?simply_static_page=147
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2?simply_static_page=147
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 30064 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58a7cdd-qCEO4C.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:5da603104d4d6e362824ec9e7db32eb2d617949a===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58aca70-hYRHSi.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf?simply_static_page=148
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf?simply_static_page=148
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 54056 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58aca70-hYRHSi.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:9ffb81a5a11112e292f2cc323e98486bad597599===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58b1d1b-WQ5JGc.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff?simply_static_page=149
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff?simply_static_page=149
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 81332 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58b1d1b-WQ5JGc.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:ddd21189de779f161634ddf307a0e1ebe30318ca===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg
+[2024-10-17 01:54:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 73
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e58b71f1-mc07GH.tmp
+[2024-10-17 01:54:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg?simply_static_page=150
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg?simply_static_page=150
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:103] Filesize: 239045 bytes
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg
+[2024-10-17 01:54:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e58b71f1-mc07GH.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.svg
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 01:54:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:32] [class-ss-page.php:119] Checking Content Identical:1f386718449d6dfd5b1ed48c264b8fe9337ec717===. Value: FALSE
+[2024-10-17 01:54:32] [class-ss-task.php:44] Status message: [fetch_urls] 47 pages/fichiers sur 73 générés
+[2024-10-17 01:54:32] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:69] Total pages: 77; Pages remaining: 4
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/author/valentinrndn/feed/
+[2024-10-17 01:54:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 77
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e59175b1-igX9jS.tmp
+[2024-10-17 01:54:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/author/valentinrndn/feed/?simply_static_page=151
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/author/valentinrndn/feed/?simply_static_page=151
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:103] Filesize: 7608 bytes
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:233] New filename for static page: /author/valentinrndn/feed/index.xml
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e59175b1-igX9jS.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/author/valentinrndn/feed/index.xml
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:159] Adding 10 URLs to the queue
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:33] [class-ss-page.php:119] Checking Content Identical:c67f8c6615c4d0b083d0ebdd7a4055fd25d6213e===. Value: FALSE
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/users/1
+[2024-10-17 01:54:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 77
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/users/1
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/category/non-classe/feed/
+[2024-10-17 01:54:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 77
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e5972720-GnKqBy.tmp
+[2024-10-17 01:54:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/category/non-classe/feed/?simply_static_page=153
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/category/non-classe/feed/?simply_static_page=153
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:103] Filesize: 7602 bytes
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:233] New filename for static page: /category/non-classe/feed/index.xml
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e5972720-GnKqBy.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048/category/non-classe/feed/index.xml
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:159] Adding 10 URLs to the queue
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 01:54:33] [class-ss-page.php:119] Checking Content Identical:2633f446e10db90dfe75c4bc7c66dbcd52f74814===. Value: FALSE
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/categories/1
+[2024-10-17 01:54:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 77
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_hehocom/wp-json/wp/v2/categories/1
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 01:54:33] [class-ss-task.php:44] Status message: [fetch_urls] 73 pages/fichiers sur 77 générés
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 01:54:33] [class-ss-fetch-urls-task.php:69] Total pages: 77; Pages remaining: 0
+[2024-10-17 01:54:33] [class-ss-task.php:44] Status message: [fetch_urls] 77 pages/fichiers sur 77 générés
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-17 01:54:33] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-17 01:54:33] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67106e59cb7a3-c1LZan.tmp
+[2024-10-17 01:54:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_hehocom/1729130074?simply_static_page=0
+[2024-10-17 01:54:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_hehocom/1729130074?simply_static_page=0
+[2024-10-17 01:54:35] [class-ss-url-fetcher.php:103] Filesize: 33677 bytes
+[2024-10-17 01:54:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-17 01:54:35] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-17 01:54:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67106e59cb7a3-c1LZan.tmp to C:\wamp64\www\wordpress_hehocom/wp-content/uploads\simply-static\temp-files/simply-static-1-1729130048\404/index.html
+[2024-10-17 01:54:35] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-17 01:54:35] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-17 01:54:35] [class-ss-page.php:119] Checking Content Identical:c64243c95f3754a7a20c6ee4139b8218acf19bab===. Value: FALSE
+[2024-10-17 01:54:35] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-10-17 01:54:35] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-10-17 01:54:35] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-10-17 01:54:35] [class-ss-task.php:44] Status message: [create_zip_archive] Archive ZIP créée :  <a href="http://localhost/wordpress_hehocom/wp-content/uploads/simply-static/temp-files/simply-static-1-1729130048.zip">Cliquez-ici pour la télécharger</a>
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-17 01:54:35] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-17 01:54:35] [class-ss-task.php:44] Status message: [wrapup] Fin du processus
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-17 01:54:35] [class-ss-archive-creation-job.php:324] Status message: [done] Effectué ! Fini en 00:00:27
