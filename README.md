@@ -1,4 +1,4 @@
-# Hehocom Child Theme
+# Hehocom Test Technic
 
 ## Introduction
 
