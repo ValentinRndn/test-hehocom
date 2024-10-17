@@ -1,0 +1,1 @@
+{"name":"Test technique Hehocom","domain":"http://localhost/wordpress_hehocom","path":"C:\\wamp64\\www\\wordpress_hehocom","wpVersion":"6.6.2","services":{"php":{"name":"php","version":"8.0.26"},"mysql":{"name":"mysql","version":"8.0.31"},"apache":{"name":"apache","version":"2.4.54"}},"wpMigrate":{"version":"2.6.11"}}
