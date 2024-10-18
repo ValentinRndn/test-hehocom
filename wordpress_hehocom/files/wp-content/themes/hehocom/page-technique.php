@@ -7,7 +7,7 @@ get_header(); ?>
         <div class="left-technic-container">
             <img id="main-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/technic/curly.webp" alt="Curly Hair">
 
-                    <!-- Popup -->
+             
         <div class="popup-container" id="popup-container">
             <h3 id="popup-title"></h3>
             <p id="popup-content"></p>
@@ -32,7 +32,7 @@ get_header(); ?>
 <?php get_footer(); ?>
 
 <script>
-// Données des différents onglets avec images, titres et descriptions
+
 const tabData = {
     1: {
         image: "<?php echo get_stylesheet_directory_uri(); ?>/assets/img/technic/colored.webp",
@@ -83,40 +83,40 @@ document.addEventListener('DOMContentLoaded', function () {
     const popupContent = document.getElementById('popup-content');
     const popupContainer = document.getElementById('popup-container');
 
-    // Vérifier si le conteneur existe
+   
     if (tabButtonsContainer) {
-        // Générer dynamiquement les boutons en fonction de tabData
+    
         Object.keys(tabData).forEach(function(key) {
             const tab = tabData[key];
 
-            // Créer un bouton
+       
             const button = document.createElement('button');
             button.classList.add('tab-button');
             button.setAttribute('data-tab', key);
 
-            // Ajouter la classe active au bouton "Cheveux Colorés" par défaut (id = 1)
+           
             if (key === "1") {
                 button.classList.add('active');
-                // Mettre à jour l'image principale et la popup avec les données de "Cheveux Colorés"
+         
                 mainImage.src = tab.image;
                 popupTitle.textContent = tab.title;
                 popupContent.textContent = tab.description;
             }
 
-            // Créer l'image et le titre dans le bouton
+       
             const img = document.createElement('img');
             img.src = tab.image;
             img.alt = tab.title;
-            img.style.width = "50px"; // Vous pouvez ajuster la taille
+            img.style.width = "50px"; 
 
             const span = document.createElement('span');
             span.textContent = tab.title;
 
-            // Ajouter l'image et le titre au bouton
+    
             button.appendChild(img);
             button.appendChild(span);
 
-            // Ajouter le bouton dans le conteneur des boutons
+
             tabButtonsContainer.appendChild(button);
         });
 
@@ -126,17 +126,15 @@ document.addEventListener('DOMContentLoaded', function () {
             button.addEventListener('click', function () {
                 const tabId = this.getAttribute('data-tab');
 
-                // Changer l'image principale dans la div de gauche
+              
                 mainImage.src = tabData[tabId].image;
 
-                // Mettre à jour le contenu de la popup avec le titre et la description associés
+            
                 popupTitle.textContent = tabData[tabId].title;
                 popupContent.textContent = tabData[tabId].description;
 
-                // Retirer la classe active de tous les boutons
                 tabButtons.forEach(btn => btn.classList.remove('active'));
 
-                // Ajouter la classe active au bouton cliqué
                 this.classList.add('active');
             });
         });
